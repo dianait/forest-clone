@@ -29,7 +29,7 @@ struct TemperatureControlView: View {
                         radius: 115.0)
     var body: some View {
         VStack {
-            Spacer(minLength: 77)
+            Spacer()
             ZStack {
                 Image("tree").resizable()
                     .frame(width: 219, height: 219)
@@ -62,6 +62,7 @@ struct TemperatureControlView: View {
                             change(location: value.location)
                         }))
             }
+            Spacer()
             Tag()
             TimerText(temperatureValue: $temperatureValue)
         }

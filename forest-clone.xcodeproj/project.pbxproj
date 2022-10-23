@@ -22,6 +22,9 @@
 		138484982901F5A1001175E7 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138484972901F5A1001175E7 /* Tag.swift */; };
 		13877B4F2905431E00517C02 /* RobotoMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13877B4E2905431E00517C02 /* RobotoMono.ttf */; };
 		13877B5129054C7000517C02 /* TimerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13877B5029054C7000517C02 /* TimerText.swift */; };
+		13877B532905564800517C02 /* MenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13877B522905564800517C02 /* MenuIcon.swift */; };
+		13877B552905569000517C02 /* TinyTan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13877B542905569000517C02 /* TinyTan.swift */; };
+		13877B57290556DF00517C02 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13877B56290556DF00517C02 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		13877B472905402B00517C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		13877B4E2905431E00517C02 /* RobotoMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoMono.ttf; sourceTree = "<group>"; };
 		13877B5029054C7000517C02 /* TimerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerText.swift; sourceTree = "<group>"; };
+		13877B522905564800517C02 /* MenuIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIcon.swift; sourceTree = "<group>"; };
+		13877B542905569000517C02 /* TinyTan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyTan.swift; sourceTree = "<group>"; };
+		13877B56290556DF00517C02 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,9 @@
 				137F8E612903F59E000DD0DF /* Coins.swift */,
 				137F8E632903FEE5000DD0DF /* Options.swift */,
 				13877B5029054C7000517C02 /* TimerText.swift */,
+				13877B522905564800517C02 /* MenuIcon.swift */,
+				13877B542905569000517C02 /* TinyTan.swift */,
+				13877B56290556DF00517C02 /* Header.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -304,7 +313,10 @@
 				138484942901EDBD001175E7 /* ButtonPlant.swift in Sources */,
 				137F8E602903DA34000DD0DF /* CornerRadiusStyle.swift in Sources */,
 				137F8E622903F59E000DD0DF /* Coins.swift in Sources */,
+				13877B57290556DF00517C02 /* Header.swift in Sources */,
 				137F8E642903FEE5000DD0DF /* Options.swift in Sources */,
+				13877B532905564800517C02 /* MenuIcon.swift in Sources */,
+				13877B552905569000517C02 /* TinyTan.swift in Sources */,
 				13877B5129054C7000517C02 /* TimerText.swift in Sources */,
 				138484982901F5A1001175E7 /* Tag.swift in Sources */,
 				138484692901E5F0001175E7 /* forest_cloneApp.swift in Sources */,

@@ -3,31 +3,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            HStack {
-                Image(systemName: "text.justify")
-                    .foregroundColor(.white)
-                    .font(.system(size: 25))
-                Spacer()
-                Options().padding(.leading, 55)
-                Spacer()
-                Coins()
-            }
-            .padding(.leading, 10)
-            .padding(.top, 10)
-            HStack {
-                Spacer()
-                Image("tinytan").resizable()
-                .frame(width: 50, height: 50)
-                .padding(.trailing, 15)
-                .padding(.top, 10)
-            }
-
-            Text("Start planting today!")
-                .foregroundColor(.white)
-                .padding(.top, -5)
-            Spacer()
+            Header()
+            Spacer(minLength: 65)
             Timer()
+            Spacer()
             ButtonPlant()
+                .padding(.bottom, 38)
             
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
