@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		137F8E602903DA34000DD0DF /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F8E5F2903DA34000DD0DF /* CornerRadiusStyle.swift */; };
+		137F8E622903F59E000DD0DF /* Coins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F8E612903F59E000DD0DF /* Coins.swift */; };
+		137F8E642903FEE5000DD0DF /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137F8E632903FEE5000DD0DF /* Options.swift */; };
 		138484692901E5F0001175E7 /* forest_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138484682901E5F0001175E7 /* forest_cloneApp.swift */; };
 		1384846B2901E5F0001175E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384846A2901E5F0001175E7 /* ContentView.swift */; };
 		1384846D2901E5F1001175E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1384846C2901E5F1001175E7 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		137F8E5F2903DA34000DD0DF /* CornerRadiusStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusStyle.swift; sourceTree = "<group>"; };
+		137F8E612903F59E000DD0DF /* Coins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coins.swift; sourceTree = "<group>"; };
+		137F8E632903FEE5000DD0DF /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		138484652901E5F0001175E7 /* forest-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "forest-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		138484682901E5F0001175E7 /* forest_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forest_cloneApp.swift; sourceTree = "<group>"; };
 		1384846A2901E5F0001175E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +146,9 @@
 				138484932901EDBD001175E7 /* ButtonPlant.swift */,
 				138484952901F2E6001175E7 /* Timer.swift */,
 				138484972901F5A1001175E7 /* Tag.swift */,
+				137F8E5F2903DA34000DD0DF /* CornerRadiusStyle.swift */,
+				137F8E612903F59E000DD0DF /* Coins.swift */,
+				137F8E632903FEE5000DD0DF /* Options.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -276,6 +285,9 @@
 			files = (
 				1384846B2901E5F0001175E7 /* ContentView.swift in Sources */,
 				138484942901EDBD001175E7 /* ButtonPlant.swift in Sources */,
+				137F8E602903DA34000DD0DF /* CornerRadiusStyle.swift in Sources */,
+				137F8E622903F59E000DD0DF /* Coins.swift in Sources */,
+				137F8E642903FEE5000DD0DF /* Options.swift in Sources */,
 				138484982901F5A1001175E7 /* Tag.swift in Sources */,
 				138484692901E5F0001175E7 /* forest_cloneApp.swift in Sources */,
 				138484962901F2E6001175E7 /* Timer.swift in Sources */,

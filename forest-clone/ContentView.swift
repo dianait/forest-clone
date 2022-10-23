@@ -4,24 +4,34 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Menu")
-                Text("reloj - Fuego")
-                Text("Monedas")
+                Image(systemName: "text.justify")
+                    .foregroundColor(.white)
+                    .font(.system(size: 25))
+                Spacer()
+                Options().padding(.leading, 50)
+                Spacer()
+                Coins()
             }
-            .padding()
+            .padding(.leading, 20)
+            HStack {
+                Spacer()
+                Image("tinytan").resizable()
+                .frame(width: 50, height: 50)
+                .padding(.trailing, 15)
+                .padding(.top, 10)
+            }
+
             Text("Start planting today!")
                 .foregroundColor(.white)
-                .padding()
-            Text("Reloooooj")
+                .padding(.top, -5)
             Spacer()
-            Tag()
             Timer()
             ButtonPlant()
             Spacer()
             
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(hex: 0x5CAF72))
+        .background(Color(hex: 0x51A386))
     }
 }
 
@@ -42,4 +52,6 @@ extension Color {
         )
     }
 }
+
+
 
