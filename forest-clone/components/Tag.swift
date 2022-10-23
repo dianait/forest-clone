@@ -7,18 +7,18 @@ struct Tag: View {
         HStack {
 
             Image(systemName: "circle.fill")
-                .font(.system(size: 10))
-                .padding(-1)
+                .font(.system(size: 9))
+
                 .foregroundColor(Color(hex: 0x81D2D8))
                 .overlay(
-                    RoundedRectangle(cornerRadius: 30)
+                    RoundedRectangle(cornerRadius: 5)
                     .stroke(Color(hex: 0x9BCEC2), lineWidth: 1))
-
-            Text("jinko").font(.system(size: 14.0))
-                .padding(.top, -2)
+                .padding(.top, -1)
+            Text("jinko").font(.system(size: 13.0))
+                .padding(.top, -3)
             
         }.foregroundColor(.white)
-            .padding(8)
+            .padding(7)
             .padding(.trailing, 5)
             .padding(.leading, 5)
         .background(Color(hex: 0x62AC92))

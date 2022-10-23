@@ -8,11 +8,12 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 25))
                 Spacer()
-                Options().padding(.leading, 50)
+                Options().padding(.leading, 55)
                 Spacer()
                 Coins()
             }
-            .padding(.leading, 20)
+            .padding(.leading, 10)
+            .padding(.top, 10)
             HStack {
                 Spacer()
                 Image("tinytan").resizable()
@@ -27,7 +28,6 @@ struct ContentView: View {
             Spacer()
             Timer()
             ButtonPlant()
-            Spacer()
             
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)

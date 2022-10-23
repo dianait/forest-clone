@@ -15,6 +15,8 @@ struct Timer: View {
 struct Timer_Previews: PreviewProvider {
     static var previews: some View {
             Timer()
+            .previewLayout(.sizeThatFits)
+            .frame(height: 500)
     }
 }
 
@@ -24,27 +26,27 @@ struct TemperatureControlView: View {
     let config = Config(minimumValue: 0.0,
                         totalValue: 120.0,
                         knobRadius: 15.0,
-                        radius: 120.0)
+                        radius: 115.0)
     var body: some View {
         VStack {
-            Spacer()
+            Spacer(minLength: 77)
             ZStack {
                 Image("tree").resizable()
-                    .frame(width: 230, height: 225)
+                    .frame(width: 219, height: 219)
                     .background(Color(hex: 0xEDEEA5))
                     .cornerRadius(80, corners: .allCorners)
 
                 // FONDO RELLENO 🟡
                 Circle()
                     .stroke(Color(hex: 0xD2CD63),
-                            style: StrokeStyle(lineWidth: 14))
+                            style: StrokeStyle(lineWidth: 11.5))
                     .frame(width: config.radius * 2, height: config.radius * 2)
 
 
                 // RELLENO VERDE 🟢
                 Circle()
                     .trim(from: 0.0, to: temperatureValue/config.totalValue)
-                    .stroke(Color(hex: 0x8BC725), lineWidth: 14)
+                    .stroke(Color(hex: 0x8BC725), lineWidth: 11.5)
                     .frame(width: config.radius * 2, height: config.radius * 2)
                     .rotationEffect(.degrees(-90))
 
@@ -60,11 +62,8 @@ struct TemperatureControlView: View {
                             change(location: value.location)
                         }))
             }
-            Spacer()
             Tag()
-             Text("\(String.init(format: "%.0f", temperatureValue + 10)):00")
-            .font(.system(size: 60))
-             .foregroundColor(.white)
+            TimerText(temperatureValue: $temperatureValue)
         }
     }
 

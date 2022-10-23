@@ -4,16 +4,18 @@ struct Options: View {
     var body: some View {
         HStack {
             Image("clock").resizable()
-            .frame(width: 14, height: 19)
-            Text("|").font(.system(size: 18))
+            .frame(width: 16, height: 19)
+            .padding(.leading, 1)
+            Text("|").font(.system(size: 16))
                 .padding(.top, -3)
 
            Image(systemName: "flame.fill")
-                .font(.system(size: 15))
-        }.frame(width: 80, height: 25)
-            .padding(.trailing, -5)
+                .font(.system(size: 17))
+                .padding(.leading, 2
+                )
+        }.frame(width:80, height: 30)
             .background(Color(hex: 0x48987C))
-            .cornerRadius(15, corners: .allCorners)
+            .cornerRadius(10, corners: .allCorners)
             .foregroundColor(.white)
     }
 }

@@ -20,6 +20,8 @@
 		138484942901EDBD001175E7 /* ButtonPlant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138484932901EDBD001175E7 /* ButtonPlant.swift */; };
 		138484962901F2E6001175E7 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138484952901F2E6001175E7 /* Timer.swift */; };
 		138484982901F5A1001175E7 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138484972901F5A1001175E7 /* Tag.swift */; };
+		13877B4F2905431E00517C02 /* RobotoMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13877B4E2905431E00517C02 /* RobotoMono.ttf */; };
+		13877B5129054C7000517C02 /* TimerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13877B5029054C7000517C02 /* TimerText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		138484932901EDBD001175E7 /* ButtonPlant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPlant.swift; sourceTree = "<group>"; };
 		138484952901F2E6001175E7 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		138484972901F5A1001175E7 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		13877B472905402B00517C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		13877B4E2905431E00517C02 /* RobotoMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoMono.ttf; sourceTree = "<group>"; };
+		13877B5029054C7000517C02 /* TimerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,8 @@
 		138484672901E5F0001175E7 /* forest-clone */ = {
 			isa = PBXGroup;
 			children = (
+				13877B472905402B00517C02 /* Info.plist */,
+				13877B4429053E5700517C02 /* fonts */,
 				138484922901ED8E001175E7 /* components */,
 				138484682901E5F0001175E7 /* forest_cloneApp.swift */,
 				1384846A2901E5F0001175E7 /* ContentView.swift */,
@@ -149,8 +156,17 @@
 				137F8E5F2903DA34000DD0DF /* CornerRadiusStyle.swift */,
 				137F8E612903F59E000DD0DF /* Coins.swift */,
 				137F8E632903FEE5000DD0DF /* Options.swift */,
+				13877B5029054C7000517C02 /* TimerText.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		13877B4429053E5700517C02 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				13877B4E2905431E00517C02 /* RobotoMono.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +275,7 @@
 			files = (
 				138484702901E5F1001175E7 /* Preview Assets.xcassets in Resources */,
 				1384846D2901E5F1001175E7 /* Assets.xcassets in Resources */,
+				13877B4F2905431E00517C02 /* RobotoMono.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +305,7 @@
 				137F8E602903DA34000DD0DF /* CornerRadiusStyle.swift in Sources */,
 				137F8E622903F59E000DD0DF /* Coins.swift in Sources */,
 				137F8E642903FEE5000DD0DF /* Options.swift in Sources */,
+				13877B5129054C7000517C02 /* TimerText.swift in Sources */,
 				138484982901F5A1001175E7 /* Tag.swift in Sources */,
 				138484692901E5F0001175E7 /* forest_cloneApp.swift in Sources */,
 				138484962901F2E6001175E7 /* Timer.swift in Sources */,
@@ -451,6 +469,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"forest-clone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "forest-clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -479,6 +498,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"forest-clone/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "forest-clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
